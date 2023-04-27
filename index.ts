@@ -18,7 +18,7 @@ async function processImage() {
     const response = await textractClient.send(analyzeImage);
     // console.log("response:", JSON.stringify(response, undefined, 2));
     // console.log("response:", response);
-    fs.writeFileSync("ocr-salary", JSON.stringify(response, undefined, 2));
+    fs.writeFileSync("ocr-salary.json", JSON.stringify(response, undefined, 2));
     return response;
   } catch (error) {
     console.log(error);
