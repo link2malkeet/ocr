@@ -1,0 +1,13 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-textract": "^3.321.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
